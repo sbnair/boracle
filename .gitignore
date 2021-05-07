@@ -1,0 +1,12 @@
+# ignore Mac OS noise
+.DS_Store
+.anchor
+# ignore the build directory for Rust/Anchor
+target
+.idea
+migrations
+# Ignore backup files creates by cargo fmt.
+**/*.rs.bk
+node_modules
+yarn.lock
+app    
